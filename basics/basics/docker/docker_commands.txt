@@ -1,0 +1,63 @@
+# version command is used to get the currently installed version of docker.
+docker -version
+
+#pull command is used to pull images from the docker repository(hub.docker.com).
+docker pull <image name>
+
+#run command is used to create a container from an image.
+docker run -it -d <image name> 		
+# -it --> (interactive) now you will have bash session inside the container, so we can use ls mkdir, or do any bash command inside the container. -d --> detach means runs the container in the background.
+
+#ps command is used to list the running containers.
+docker ps
+
+#ps -a command used to list all the running and existed containers.
+docker ps-a
+
+#images command is used to see all the locally stored images.
+docker images
+
+#container  ls command is used to see list of containers running. 
+docker container ls
+
+#container ls -la command is used to see all running and existed containers.
+docker container ls -la/-a
+
+#rm command is used to remove the container.
+docker container rm <containername/containerId>
+
+#rm -f command is used to force remove container.
+docker container rm -f  <containername/containerId>
+
+#rmi command is used to remove images from local storage.
+docker rmi <imagename>
+
+#create command is used to create a container.
+docker container create <image>
+
+#start command is used to start existing container.
+docker container start <containername/containerId>
+
+#inspect command is used to see info of particular container.
+docker container inspect <containername/containerId>
+
+#info command is used to see information of complete information docker,like how many containers are running,stopped,paused and images and much more information.
+docker info
+
+#stop command is used to stop the running container.
+docker container stop <containername/containerId>
+
+#build command is used to build image from dockerfile / url 
+docker build -f <pathtoaDockerfile>
+
+#pull command is used to pull images from docker hub.
+docker pull <imagename>
+
+#tag command is used to give tag to existing image.
+docker tag <oldname/newname:tag>
+
+#prune command is used to remove the stopped containers.
+docker container prune.
+
+#exec command is used to go into container which is paused/stopped.
+docker container exec -it : <containerId> 

@@ -1,0 +1,48 @@
+# config --global user.name is used for configuring the local repository for all the repositories in my local pc. 
+git config --global user.name "First_name,Last_name"
+
+# config --global user.mail is used for configuring the local repository for all the repositories in my local pc.
+git config --global user.mail "abcd1234@gmail.com"
+
+# init command creates the new repository in the file.
+git init
+
+# clone command is used to obatin the repository from the url
+git clone <https://github.com/narra96/learning.git>
+
+# status is used to know the status of files whether the file is in staging area or commited;
+git status
+
+# add is used to add the file from the working directory to beyond the staging area.
+git add <dummy.txt>
+git add .  	# all the files are added to staging are. 
+
+# commit is used to send the file to the local repository.
+git commit -m <"First commit of dummy">
+
+# diff is used to see the difference between the modified and the old verison file.
+git diff <dummy.txt>
+
+# log is used to see the history of the current branch.
+git log
+
+# checkout is used to change from one branch to another branch.
+git checkout <branch1>
+
+# merge is used to merge two or more branches to one branch.
+git merge <branch1>
+
+# pull is used to take the files from the remote repository.
+git pull <repository link> / git pull origin <branch>
+
+# push is used to push the files from local repository to remote repository.
+git push origin master / git push -all
+
+# stash is used to store the unmodified files in the staging area.
+git stash 
+
+# reset is used to undo the adding file to staging area.
+git reset
+
+# rm is used to remove the file from the project and the file is in staging area for commit.
+git rm 

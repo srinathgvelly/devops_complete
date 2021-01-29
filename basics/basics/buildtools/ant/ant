@@ -1,0 +1,10 @@
+Build tools automates the process of building an executable. This gives each developer the ability to build and run software on their machine. A build tool can automate the process of downloading and managing dependencies.
+
+ANT stands for another neat tool.Ant is also a java based build tool.
+Ant is a platform neutral and can handle platform specific properties.
+Ant scripts uses plain xml.Ant comes with big list of predefined tasks.
+Ant is flexible and doesnt impose any coding conventions or project structure. 
+Ant doesnt has formal conventions so we need to provide information of the project structure in xml file
+Ant is procedural we need to provide information about what to do and when to do through code,and we also 
+need to provide order of sequence.
+Properties are used to customize the build process are defined in a build file.

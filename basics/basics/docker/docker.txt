@@ -1,0 +1,53 @@
+Docker is a open sources tool designed to create, deploy and run applications by using containers.
+Docker helps developers to execute the application source code with operating system libraries and 
+dependencies required to run the code in any environment.
+
+Docker Life cycle :
+	 --> Build/Create: configuration of an application by using dockerfile
+	 --> Ship/deploy: Image can be distributed to different nodes/environments. 
+	 --> run : pulling the image and run the image in container.
+
+Major differences between Docker and Virtual machines(VM) are as follows :
+	 --> Docker containers uses same kernel of the host machine but each VM runs its own OS.
+	 --> Docker containers takes seconds to instantiate but VM take minutes to boot up.
+	 --> Images are built incrementally on top of another like layers but VM snapshots are restricted.
+	 --> Images can be version controlled but VM's are not version controlled.
+	 --> Many containers can run on docker from local host but VM's cannot run more than a couple.
+	 --> Multiple containers can be started from one docker image and only one VM can be started from host.
+	 --> Dockers have Docker engine to work and VM's have Hypervisior to work.
+	 --> Docker are light weight because they dont carry the entire OS instance like VMs, which are heavy.
+	 --> Dockers are faster and CI/CD pipelines can happen but vms are not fasters.
+
+Dockerfile are set of instructions which tells the container to download all the dependencies and install them 
+ to run the application. Dockerfile specifies the operating system, languages, environmentvariables, files , network 
+ ports and other things depending on the application.
+
+Docker images are executable packages that consists of code,libraries,environment variables and configuration files.
+ In images extra changeble layers cannot be added. This are read only type.
+Docker containers are a runtime instance of an image. It doesnt depend on host OS for execution. Depending on application
+ it can access to host files and port. A Container can add an extra layer on top of the image which is read and write layer.
+
+Docker Volume:
+  volumes are directories that exists as normal directories and files on the host filesystem
+	 --> Host Folder Volumes : folders are mapped to specific location on host.
+	 --> Named Volumes : These are created before or after running the docker, stored in default docker path.
+	 --> Data sharing : allows files to share between the containers.
+	 --> IO-performance : by bypassing the copy on write system. 
+	 
+Docker Network :
+ For containers to communicate with each other and outside world via host machine then networking layer is needed.
+ There are 3 default networking:
+	 --> docker0: default bridge network is created when docker is installed. Each new container is attached to this network unless specified.
+	 --> host : host and containers on this network to outside world 
+	 --> none : attached containers run on network stack.
+
+Docker Compose :
+ When using docker extensively containers quickly becomes cubersome so to overcome this problem we used docker compose to handle multiple
+  containers at once.
+	 
+Docker Swarm:
+ Swarm is used to run the container in multiple docker hosts and act as managers and workers.
+ swarm is used to distribute the application across multiple hosts.By using load balancing multiple containers can have same docker image
+ to increase performance.
+ TLS encryption security between the nodes of swarm clusters. 
+ 
