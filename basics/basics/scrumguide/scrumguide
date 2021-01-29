@@ -1,0 +1,157 @@
+Scrum is a framework, it works on complex adaptive problems.
+In a nutshell, scrum requires scrum master to faster an environment where :
+	  --> Product owner orders work for problem in product backlog
+	  --> Scrum team makes the work into increment of work in sprint
+	  --> Scrum team and stake holders inspect the results and adjust for next sprint.
+
+scrum is founded on two things empiricism and lean thinking. Empiricism tells 
+	  --> knowledge comes from experience 
+	  --> decision making is based on observation
+ lean thinking is reduces unwanted things and focues on the important things.
+
+scrum approach is Iterative and Incremental 
+inorder to achieve Predictibility and Risk Control
+
+scrum pillars --> Transperency + Inspection + Adaption.
+
+Transparency : Means aspects of the process can be visible to people responsible for the outcome.
+	  --> Transparency enables inspection. inspection without transparency is wasteful and misleading.
+
+Inspection : Scrum artifacts inspects the progress towards the sprint goal inspection happens frequently if it comes in the way of  work inspection is not done frequently.
+	  --> Inspection enables Adaption. Inspection without adaption is pointless.
+
+Adaption : If the process and resulting product aspects deviate out of acceptable limits:Process or material must be adjusted.
+scrum team is expected to adapt the moment it learns anything through inspection.
+
+Scrum Values :
+      --> commitment : People are committed to work to acheieve goals
+      --> focus : focus on work and goal
+      --> openness : be open to work and challenges 
+      --> repect : respect people to be capable and independent
+      --> courage : courage to do work and work on tough problems
+              
+Scrum team :
+      --> Scrum Master 
+      --> Product Owner 
+      --> Developer
+        
+ Scrum Teams are Self Organising and Cross Functional (Teams have all competences needed.No dependency of outsiders. 
+        
+Development Team :
+	  --> Professionals who deliver a potentially releasable Increment of "Done" product at the end of each Sprint.
+	  --> Members may have specialised skills, but accountability belongs to the team as a whole.
+	  --> Development Team Size =3 to 9 people.
+
+Product Owner:
+	  --> Responsible for maximising the value of the work done by the Development Team.
+	  --> Product Owner is  1 single person. May represent the desires of a group/committee.
+	  --> Product Owner is solely accountable for the Product Backlog. He owns it.
+	  --> Anyone who wants to change Product Backlog priorities, must address the Product Owner.
+
+Scrum Master:
+	  --> Promote and support Scrum as defined in the Scrum Guide.
+	  --> Help those outside of team to understand which interaction are helpful and which aren't.
+	  --> Scrum Master is a true leader.
+	  --> Service to the Product Owner,development team and the organisation in several ways,
+
+Scrum Events :
+      --> Sprint Planning
+      --> Daily Scrum
+      --> Sprint Review
+      --> Sprint Retrospective
+      --> Sprint
+             
+ Create regularity
+ Minimize the need for other meetings     
+ Designed for critical transparency and inspection.
+
+Sprint :
+	  --> One month or less
+	  --> Starts immediately after the previous one
+	  --> Create a Product Increment "Done" Usable Potentially releasable
+	  --> Length doesn't change after it starts
+	  --> Consistent duration throughout development
+
+ During the sprint:
+	  --> No changes that would endanger the Goal 
+	  --> Quality does not decrease
+	  --> Scope may be clarified and renegotiated as more is learned
+	  --> Negotiation = Development Team + Product Owner
+	  --> Each Sprint =~ project no longer than 1 month long.
+ 
+ Accomplish something
+	  --> Has a goal of what to build
+	  --> Has a design
+	  --> Flexible plan
+	  --> Result = Product Increment
+ 
+ Only the Product Owner can cancel, before the time-box is over. May do under the influence of Stakeholders, Development Team or Product Owner.
+
+Sprint Planning:
+ Maximum of 8 hours for a one-month Sprint. Shorter event for shorter sprints. For planning the work to be performed during the Sprint.
+
+It answers:
+	  --> What can be delivered?
+	  --> How will work be achieved?
+
+ By the end of Sprint Planning, the Development Team should be able to explain how it intends to self-organise to accomplish the Goal and deliver the Increment.
+
+Sprint Backlog:
+ Development Team self-organises to undertake (commit) the work in the Sprint Backlog
+
+ During planning and throughout the Sprint.
+
+Daily Scrum:
+	  --> 15 minutes time-box. Regardless team size or Sprint length.
+	  --> Internal meeting for the Development Team (others must not disturb) Every day.
+	  --> Same place, same time.
+	  --> Plan for the next 24 hours.
+	  --> Optimises collaboration and performance.
+	  --> Key Inspect and Adapt meeting.
+ The structure is set by the Development Team
+
+Sprint Review:
+	  --> 4 hours for one month Sprint. Shorter event for shorter sprints.
+	  --> End of Sprint (before Retrospective).
+	  --> What was done in the Sprint.
+	  --> Inspect the Product Increment.
+	  --> Adapt the Product Backlog.
+	  --> Scrum Team + Stakeholders.
+	  --> Collaborate on next things to be done to optimise value.
+
+Sprint Retrospective:
+	  --> 3 hours for one month Sprint. Shorter event for shorter sprints.
+	  --> Formal opportunity for Inspection and Adaptation.
+	  --> Scrum Team inspect itself.
+	  --> Plan improvements to do next Sprint.
+	  --> Make next Sprint more effective and enjoyable.
+	  --> Plan how to increase product quality.
+	  --> Adapt the Definition of Done if Necessary.
+	  --> Not in conflict with organisational standards.
+
+Scrum Artefacts:
+	  --> Artefacts represent Work or Value.
+	  --> Opportunity to Inspect and Adapt.
+	  --> Designed to maximise transparency.
+
+Product Backlog:
+	  --> Ordered list of everything needed in the product.
+	  --> It is the single source of requirements.
+	  --> Belongs solely to the Product Owner.
+
+Sprint Backlog:
+	  --> Product Backlog items selected for the Sprint, plus a plan for delivering them = forecast by the Development Team about:
+	  --> What functionality will be in the next increment and
+	  --> Work needed to deliver it as a "Done" increment
+	  --> Makes visible the work necessary to deliver the Sprint Goal.
+	  --> It is a highly visible real-time picture of the Development Team work.
+	  --> It belongs solely to the Development Team.
+
+Increments:
+ Increment = Sum of items completed during this Sprint	+ Value of increments from previous Sprints.
+	  --> steps towards a goal or version
+	  --> multiple increments created with in the sprint supports empiricism.
+
+Definition of Done :
+	  --> It guides the Development Team on knowing how many items it can select during Sprint Planning.
+	  --> As Scrum Team matures, Definition of Done evolves to higher quality and may uncover work to be done in previously "Done" increments.

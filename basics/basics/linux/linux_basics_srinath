@@ -1,0 +1,88 @@
+# pwd command is used to know the current directory.
+pwd
+
+
+# ls command is used to know files in the directory.
+ls
+
+
+# ls-a command is used to know all the files including hidden files.
+ls -a
+
+# cd command is used to change the directory, from one folder to another folder.
+cd <directory / folder_path>
+
+# cd .. command is used to go back to the previous folder of the directory.
+cd ..
+
+# mkdir command is used to make a folder in that directory.
+mkdir <Newfoldername>
+
+# mv command is used to move the folder from one directory to another directory.
+mv <newfolder> </home/user>
+
+
+# mv file is also used to change the name of the file/folder.
+mv <dummy> <dummy1>
+
+# touch command is used to create file.
+touch <dummy.txt>
+
+# rm is used to remove the file in the directory.
+rm <filename>
+
+# rm -r is used to remove the entire directory.
+rm -r </directory>
+
+# echo command is used to save data into the file(existing/new).echo is also used to print the message in the terminal.
+echo <Hello, I am Srinath. >> dummy.txt>
+echo <"Hello Team,">
+
+# cat command is used to view the file in the terminal.
+cat <dummy.txt>
+
+# vi command is used to edit the file, vi is pre installed text editor in linux.
+vi <dummy.txt>
+
+# sudo command stands for SuperUser do, if a command needs to be done with administrative or root privileges sudo is used.
+sudo <apt-get update.>
+
+# man and help are used for the help how to use the command.
+sudo --help / man sudo
+
+# cp is used to copy a file into the same folder or new folder.
+cp <filename> <pathtocopiedinto>
+
+# locate is used to find the file path/directory.
+locate<file*name>
+
+# df is used to find the available storage in the local computer.
+df
+
+# du is used to the know the about the disc usage of the file.
+du
+
+# chmod is used when file needs to be executed and to change the default permissions of the linux for the installations.
+chmod +x <filename>     # +x is used to make file executable.
+chmod 777 <filename>    # 777 means user,group and world can read write and execute the file. 
+
+# grep is used to search any word in specific file.
+grep <word> <filename>
+
+# head is used to display the top lines of the file.
+head -n 5 <filename>    # -n 5 is number of lines to be displayed.
+
+# tail is used to display the bottom lines of the file.
+tail -n 5 <filename> 	# -n 5 is number of lines to be displayed.
+
+# chown is used to change the ownership of the specific file to another user.
+chown <user2> <filename>
+
+# wget is used to download files/folder from URL.
+wget <downloadURL>
+
+# curl is used to download or upload the data with URL.
+curl -O <URL> 			# -O indicates the saves the file with the original file name.
+
+# subl is used to read write the file. Sublime is text editor which supports linux terminal.
+subl <filename>

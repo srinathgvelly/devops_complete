@@ -1,0 +1,67 @@
+Build tools are programs that automate the creation of executable applications. Build automation is automating the sequence of tasks that are to be made by developer.
+
+ Downloading dependencies -> compile source code -> running tests -> deployment 
+
+Maven is an attempt to apply patterns to a project's build infrastructure in order to promote comprehension and productivity by providing a clear path in the use of best practices. Maven is essentially a project management and comprehension tool and as such provides a way to help with managing:
+	 --> Builds
+	 --> Documentation
+	 --> Reporting
+	 --> Dependencies
+	 --> SCMs
+	 --> Releases
+	 --> Distribution
+	 --> Mailing list 
+
+ Maven makes life of developer very easy by creating reports, checks, build and testing automation setups.
+ Maven is build automation tool used to build java projects.
+
+ Primary goal of Maven:
+	 --> Project is resuable, maintainable, easier to comprehend.
+	 --> plugins or tolls interact with this type models.
+
+Maven uses Convention over Configuration. Maven creates default project structure so developers need to mention life cycle goals and project dependencies , they doesnt need to build process themselves but they need to place the files accordingly.
+
+Features of Maven:
+ 	 --> simple project setup
+ 	 --> usage in all the project
+ 	 --> Dependency management including automatic updating
+ 	 --> repositories are more
+ 	 --> Ability to easily write plugins in java
+ 	 --> Instant access to new features.
+ 	 --> Maven can build so many number of projects with predefined outputs such as jar, war, metadata
+ 	 --> maven can be able to build websites and pdfs
+ 	 --> Maven can integrate with the scs to manage the projects
+ 	 --> Maven can support its older versions
+ 	 --> Automatic parent versioning
+ 	 --> Maven can build schedule modules in parallel.
+ 	 --> Maven can report error with the error description.
+	 
+Maven build lifecycle(standard lifecycle) is set of tasks that are executed when maven build is run.
+ 	 --> default/build:handles project build and deloyment
+ 	 --> clean:handles project cleaning
+ 	 --> site:handles the creation of project site documentation 
+	 are three built in build lifecycles
+
+A build phase is made up of set of goals and goes through set of stages in maven built lifecycle.
+
+Maven build phases:
+ Maven build lifecycle goes through a set of stages they are called build phases.
+ 	 --> validate
+ 	 --> compile
+ 	 --> testing
+ 	 --> package
+ 	 --> verify
+ 	 --> install
+ 	 --> deploy	
+ when we run a maven build command we specify the phase to be executed,in any maven build phases that
+ come before the specified task is also executed i.e., if we run mcn verify then it will execute validate
+ compile,test,package phases of the project.
+ 
+Maven Build Goals:
+ a build phase is made up of set of goals.Maven goals represents a specific task that contributes 
+ to building and managing of a project.
+ 	 
+Role of POM in build lifecycle:
+ The maven builds executed through command line runs a set of phases and goals. POM plays a key role in 
+ project build lifecycle. The packaging value of pom.xml file defines the set of goals to be be executed by 
+ maven project.

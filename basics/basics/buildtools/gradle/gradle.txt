@@ -1,0 +1,10 @@
+Gradle is a dependency management and build automation tool. It is built on the concepts of ANT and Maven.
+Gradle works on domain specific language (DSL) which allows the developers to solve problem specific domain using language for a particular domain. Gradle works with groopy language.
+Gradle can be used in java based projects.
+Gradle offers to monitor and customize project configuration and execution behaviour.
+Gradle can build from single projects to multi projects.
+Gradle can adopt to any type of structure and can convert pom files to gradle script.
+Build phases in gradle:
+	 --> Initialization: supports single and multi-project builds. During this stage graddle creats instance for each of these projects.
+	 --> Configuration : objects in the project are configured. Build scripts of all projects are part of the build are executed.
+	 --> Execution : objects which are configured are executed .
