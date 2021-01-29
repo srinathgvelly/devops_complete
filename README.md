@@ -1,4 +1,7 @@
 # devops_complete
+
+Created different branches for each task.
+
 ## Task-1
 1. Basic Commands on git, Linux, bash and docker.
 2. Short description about Scrum guide, DevOps and Buildtools.
