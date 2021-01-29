@@ -42,6 +42,3 @@ ls -l
 
 #sed is used to replace string with another string in a file.
 sed s/<old_word>/<new_word>
-
-
-
