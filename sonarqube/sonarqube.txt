@@ -1,0 +1,25 @@
+Sonarqube is an automatic code review tool to detect bugs, vulnerabilities and code smells in code.
+Sonarqube can integrate with existing workflow to enable continous code inspection across the project branch and pull requests.
+
+	 -->Developers develop and merge the code in IDE and check in their code to ALM.
+	 -->Organisation CI tool checks out, builds and runs unit tests and integrate sonarqube scanner which analyzes the results.
+	 -->Scanner posts the results to the sonarqube server which provides feedback to developers through sonarqube interface.
+
+Sonarqube Scanner:
+	 -->Setting up analysis:		Analyzing starts with installing and configuring a soanrqube scanner.
+									The scanner can either run on build or as a part of CI pipeline performing  scan when build is triggered.
+	 -->Analyzing Branches :		Happens in developer edition. To ensure the code quality is consistent till the branch level of the project.
+	 -->Analyzing Pull request : 	Sonarqube can be a part of pull merge request. This trigger branch analysis and add pull request decoration 
+									to set branch analysis directly in ALM's interface & soanrqube interface.
+
+Tools for writing clean and Safe Code:
+
+	  -->Sonarlint :		Is a editor, gives immediate feedback to catch and fix issues before send to repository.
+	  -->Quality Gate : 	Checks if the project is ready for Production.
+	  -->Clean as Code :	Eliminates lot of challenges that comes with traditional approach.
+	  -->Issues:			Sonarqube raises issues whenever piece of code breaks coding rules, error that breaks code at point in code open to 
+							to attack vulnerabilities.
+	  -->Securityhotspots : Security sensitivity piece of code need to be reviewed. Upon review you will either find their is no threat or need
+							to apply fix to secure code.
+							
+Sonarqube runs on http://localhost:9000
