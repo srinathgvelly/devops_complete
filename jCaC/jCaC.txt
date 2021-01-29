@@ -1,0 +1,13 @@
+Building a Jenkins is a complex process. Jenkins and its plugins require tuning and configuration
+with lots of parameters with in the web UI manage section. Experienced users depends on Groovy
+scripts for customizing jenkins.
+
+Configuration as code plugin is used to configure Jenkins. Configuration files is made as human
+readable. To write this type of files is more feasible to write whether the user is expert in jenkins 
+expert or not. Translating into code a configuration process is used to executing in the web UI.
+
+ YAML format is used for writing Jenkins configurations. YAML is human readble language.
+ 
+	 --> Configuration as Code - Groovy Scripting Extension
+	 --> Configuration as Code Support Plugin
+	 Are installed in Jenkins(Manage jenkins -> Manage Plugins).

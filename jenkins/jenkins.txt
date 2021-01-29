@@ -1,0 +1,14 @@
+Jenkins is free source that can handle any kind of build or continous integration. Jenkins allows continous integration and 
+continous delivery of projects. Jenkins is installed on a server where the central build will take place. Happens as below :
+	 --> Developers check their source code.
+	 --> Jenkins will pick up the changed source code and triggers build and runs the test.
+	 --> build output will be available in the jenkins dashboard.
+
+Continuous Integration: Developers integrate code into shared repo at regular intervals. Each integration can verified by automated builds.
+
+A pipeline is a sequence of events or jobs that can be executed.
+Stage contains a series of steps. It is used to visualize pipeline process.
+Step: It is a task that to be performed with that stage.
+
+Jenkins Pipeline is a way to execute Jenkins jobs sequentially which is defined by coding and structuring it inside multiple stages.
+Pipeline supports from CI to CD pipelines.
